@@ -336,8 +336,17 @@
     </div>
 </div>
 <script>
+    window.bannerBgMap = {
+        0: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586540650629&di=1ee2201384261dfabb7f8d0c0930427f&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F8%2F549a63310e443.jpg',
+        1: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586544472626&di=7c1c7ad2072be1ac3c03ecb4ef60db70&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fa%2F5784481a3cdfa.jpg%3Fdown',
+        2: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586542898331&di=dcbe82191f7815383cd15aed0f443ca5&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fd%2F57972d07e953c.jpg',
+        3: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586543047663&di=d24ef465aafa4b657b7a1581249fb76c&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F4%2F57844ad07493b.jpg',
+        4: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586544265600&di=a1419b9eb25bd77caee7e969ae450567&imgtype=0&src=http%3A%2F%2Fdik.img.kttpdq.com%2Fpic%2F42%2F29046%2Fa3fad9a83d5fd442_1680x1050.jpg',
+        5: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586543734077&di=da1c8bf7a5ba49c50351964cf1e405d5&imgtype=0&src=http%3A%2F%2Fdik.img.kttpdq.com%2Fpic%2F22%2F15191%2Fb42dfa541fa6bd93_1680x1050.jpg',
+        6: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586540825193&di=cf69cf29f91ac4d14a08f398d2a7874d&imgtype=0&src=http%3A%2F%2Fwww.szhwqy.cn%2FupLoad%2Fnews%2Fmonth_1802%2F201802281001448621.jpg'
+    }
 // 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+$('.bg-cover').css('background-image', 'url(' + window.bannerBgMap[new Date().getDay()] + ')');
 </script>
     </div>
 </div>
@@ -381,7 +390,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="十大经典排序算法整理汇总（附代码）">
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="十大经典排序算法整理汇总（附代码）">
                             
                             <span class="card-title">十大经典排序算法整理汇总（附代码）</span>
                         </div>
