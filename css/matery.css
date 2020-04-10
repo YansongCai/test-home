@@ -335,7 +335,7 @@ header .brand-logo .logo-span {
     font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 601px) {
+@media (max-width: 601px) {
     header .brand-logo .logo-img {
         height: 40px;
     }
